@@ -1,6 +1,6 @@
 # Integrate Java with AWS Cognito — Developer Tutorial
 
-![img](.\img\1.webp)
+![img](https://raw.githubusercontent.com/net2340445/Cognito-Java/main/get_token/img/1.webp)
 
 Amazon Cognito
 
