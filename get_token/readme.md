@@ -47,7 +47,7 @@ private AWSCognitoIdentityProvider createCognitoClient() {
 
 Once we have defined the Cognito client, we can start calling the API services. Let’s look at how to sign up, confirm sign up, sign in, get user authentication and authorization, etc.
 
-![img](.\img\2.webp)
+![img](https://raw.githubusercontent.com/net2340445/Cognito-Java/main/get_token/img/2.webp)
 
 # Sign Up Implementation
 
@@ -120,7 +120,7 @@ public Map<String, String> login(String email, String password) {
 
 If the user credentials are incorrect it will throw an exception. You can also add Auth Challenge Request if you wish to add MFA, Password Verifier, etc. in your system
 
-![img](.\img\3.webp)
+![img](https://raw.githubusercontent.com/net2340445/Cognito-Java/main/get_token/img/3.webp)
 
 # Authentication & Authorization Flow
 
@@ -201,7 +201,7 @@ You can use this authenticate method if you add a Security Configuration to your
 
 Access & ID tokens have an expiry time after which you cannot use the token for access or Identification. In this case, we make use of the Refresh token which will be used to re-generate the ID & Access token.
 
-![img](.\img\4.webp)
+![img](https://raw.githubusercontent.com/net2340445/Cognito-Java/main/get_token/img/4.webp)
 
 ```
 public Map<String, String> refreshToken(String refreshToken) {
